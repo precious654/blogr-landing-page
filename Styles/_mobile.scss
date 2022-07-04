@@ -1,0 +1,49 @@
+@media (max-width: 1023px) {
+
+  .desktop-image{
+    display: none;
+  }
+
+  header{
+      border-bottom-left-radius: 80px;
+      padding: 40px;
+
+    nav{
+
+      .nav-bar{
+        gap: 10rem;
+      }
+
+      .buttons{
+        display: none;
+      }
+
+      .nav-items{
+        display: none;
+      }
+    }
+
+    .intro{
+
+      h1{
+        font-size: 28px;
+      }
+    }
+  }
+
+  .section-one{
+
+    h1{
+      margin-block-end: 2rem;
+    }
+
+    .section-info{
+      flex-direction: column-reverse;
+      gap: 2rem;
+
+      h3{
+        text-align: center;
+      }
+    }
+  }
+}

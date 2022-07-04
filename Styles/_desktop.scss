@@ -1,0 +1,39 @@
+@media (min-width: 1024px) {
+
+  .mobile-image{
+    display: none;
+  }
+
+  header{
+      border-bottom-left-radius: 200px;
+      padding: 60px;
+
+    nav{
+
+      .nav-bar{
+        gap: 3rem;
+      }
+
+      #nav-menu{
+        display: none;
+      }
+    }
+  }
+
+  .section-one{
+
+    .section-info{
+      justify-content: space-between;
+
+      .first-item{
+        inline-size: 40%;
+        margin-block-start: 5rem;
+      }
+
+      .second-item{
+        inline-size: 50%;
+      }
+    }
+  }
+
+}

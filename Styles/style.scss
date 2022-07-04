@@ -1,0 +1,86 @@
+@import "config";
+@import "desktop";
+@import "mobile";
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  background-color: hsl(13, 100%, 72%);
+  position: relative;
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+
+    a{
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+
+    .nav-banner{
+      font-size: 30px;
+    }
+
+
+    .nav-bar{
+      display: flex;
+
+      select{
+        background-color: inherit;
+        font-family: 'Montserrat', sans-serif;
+        border: none;
+        color: #FFFFFF;
+
+        option{
+          color: #000000;
+        }
+      }
+    }
+  }
+
+  .intro{
+    color: #FFFFFF;
+    text-align: center;
+
+    h1{
+      margin-block-end: 1rem;
+    }
+
+    button{
+      margin-block-start: 1.5rem;
+      margin-inline-end: 1rem;
+      border: 1px solid #FFFFFF;
+    }
+  }
+}
+
+.section-one{
+  margin-block-start: 5rem;
+
+  h1{
+    text-align: center;
+  }
+
+  .section-info{
+    display: flex;
+
+    h3{
+      margin-block-end: 1.5rem;
+    }
+
+    p{
+      margin-block-end: 3rem;
+    }
+  }
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}

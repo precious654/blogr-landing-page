@@ -5,65 +5,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="./Styles/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | [Blogr]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Product
+  <header>
+    <nav>
+      <div class="nav-bar">
+        <h1 class="nav-banner"><a href="">Blogr</a></h1>
 
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
+        <img src="./images/icon-hamburger.svg" alt="icon" id="nav-menu">
 
-  Company
+        <div class="nav-items">
+          <select class="Product nav-links" name="Product">
+            <option>Product</option>
+            <option>Overview</option>
+            <option>Pricing</option>
+            <option>Marketplace</option>
+            <option>Features</option>
+            <option>Integrations</option>
+          </select>
 
-  About
-  Team
-  Blog
-  Careers
+          <select class="Company nav-links" name="Company">
+            <option>About</option>
+            <option>Team</option>
+            <option>Blog</option>
+            <option>Careers</option>
+          </select>
 
-  Connect
+          <select class="Connect nav-links" name="Connect">
+            <option>Connect</option>
+            <option>Contact</option>
+            <option>Newsletter</option>
+            <option>LinkedIn</option>
+          </select>
+        </div>
+      </div>
 
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
+      <div class="buttons">
+        <button type="button" name="Login">Login</button>
+        <button type="button" name="Sign Up">Sign Up</button>
+      </div>
 
-  A modern publishing platform
-  Grow your audience and build your online brand
+    </nav>
+    <div class="bg-image">
+      <img src="./images/bg-pattern-intro-desktop.svg" alt="an image" class="desktop-image">
+      <img src="./images/bg-pattern-intro-mobile.svg" alt="an image" class="mobile-image">
+    </div>
 
-  Start for Free
-  Learn More
+    <div class="intro">
+      <h1>A modern publishing platform</h1>
+      <small>Grow your audience and build your online brand</small>
+      <div class="">
+        <button type="button" name="button">Start for Free</button>
+        <button type="button" name="button">Learn More</button>
+      </div>
+    </div>
+  </header>
 
-  Designed for the future
+  <section class="container section-one">
+    <h1>Designed for the future</h1>
 
-  Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-  change the looks of a blog.
+    <div class="section-info">
+      <div class="first-item">
+        <div>
+          <h3>Introducing an extensible editor</h3>
+          <p>
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looks of a blog.
+          </p>
+        </div>
 
-  Robust content management
-  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+        <div>
+          <h3>Robust content management</h3>
+          <p>
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+      </div>
+
+      <div class="second-item">
+        <img src="./images/illustration-editor-desktop.svg" alt="an image" class="desktop-image">
+        <img src="./images/illustration-editor-mobile.svg" alt="an image" class="mobile-image">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
   This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
 
   Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+  Blogr is a free and open source application backed by a large community of helpful developers. It supports
+  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
   and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
 
   Powerful tooling
@@ -86,13 +146,13 @@
   Careers
 
   Connect
-  
+
   Contact
   Newsletter
   LinkedIn
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>

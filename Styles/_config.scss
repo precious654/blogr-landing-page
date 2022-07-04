@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(13, 100%, 72%);
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+button:hover{
+  color: hsl(356, 100%, 66%);
+  background-color: #FFFFFF;
+}
+
+.container{
+  inline-size: 90%;
+  margin: auto;
+}
