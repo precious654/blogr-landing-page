@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="./Styles/style.min.css">
@@ -11,149 +12,171 @@
   <title>Frontend Mentor | [Blogr]</title>
 
 </head>
-<body>
-  <header>
-    <nav>
-      <div class="nav-bar">
-        <h1 class="nav-banner"><a href="">Blogr</a></h1>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-bar">
+          <h1 class="nav-banner"><a href="">Blogr</a></h1>
 
-        <img src="./images/icon-hamburger.svg" alt="icon" id="nav-menu">
+          <img src="./images/icon-hamburger.svg" alt="icon" id="nav-menu">
 
-        <div class="nav-items">
-          <select class="Product nav-links" name="Product">
-            <option>Product</option>
-            <option>Overview</option>
-            <option>Pricing</option>
-            <option>Marketplace</option>
-            <option>Features</option>
-            <option>Integrations</option>
-          </select>
+          <div class="nav-items">
+            <select class="Product nav-links" name="Product">
+              <option>Product</option>
+              <option>Overview</option>
+              <option>Pricing</option>
+              <option>Marketplace</option>
+              <option>Features</option>
+              <option>Integrations</option>
+            </select>
 
-          <select class="Company nav-links" name="Company">
-            <option>About</option>
-            <option>Team</option>
-            <option>Blog</option>
-            <option>Careers</option>
-          </select>
+            <select class="Company nav-links" name="Company">
+              <option>About</option>
+              <option>Team</option>
+              <option>Blog</option>
+              <option>Careers</option>
+            </select>
 
-          <select class="Connect nav-links" name="Connect">
-            <option>Connect</option>
-            <option>Contact</option>
-            <option>Newsletter</option>
-            <option>LinkedIn</option>
-          </select>
+            <select class="Connect nav-links" name="Connect">
+              <option>Connect</option>
+              <option>Contact</option>
+              <option>Newsletter</option>
+              <option>LinkedIn</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button type="button" name="Login">Login</button>
+          <button type="button" name="Sign Up">Sign Up</button>
+        </div>
+
+      </nav>
+      <div class="bg-image">
+        <img src="./images/bg-pattern-intro-desktop.svg" alt="an image" class="desktop-image">
+        <img src="./images/bg-pattern-intro-mobile.svg" alt="an image" class="mobile-image">
+      </div>
+
+      <div class="intro">
+        <h1>A modern publishing platform</h1>
+        <small>Grow your audience and build your online brand</small>
+        <div class="">
+          <button type="button" name="button">Start for Free</button>
+          <button type="button" name="button">Learn More</button>
         </div>
       </div>
+    </header>
 
-      <div class="buttons">
-        <button type="button" name="Login">Login</button>
-        <button type="button" name="Sign Up">Sign Up</button>
+    <section class="container section-one">
+      <h1>Designed for the future</h1>
+
+      <div class="section-info">
+        <div class="first-item">
+          <div>
+            <h3>Introducing an extensible editor</h3>
+            <p>
+              Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+
+          <div>
+            <h3>Robust content management</h3>
+            <p>
+              Flexible content management enables users to easily move through posts. Increase the usability of your blog
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+            </p>
+          </div>
+        </div>
+
+        <div class="second-item">
+          <img src="./images/illustration-editor-desktop.svg" alt="an image" class="desktop-image">
+          <img src="./images/illustration-editor-mobile.svg" alt="an image" class="mobile-image">
+        </div>
       </div>
+    </section>
 
-    </nav>
-    <div class="bg-image">
-      <img src="./images/bg-pattern-intro-desktop.svg" alt="an image" class="desktop-image">
-      <img src="./images/bg-pattern-intro-mobile.svg" alt="an image" class="mobile-image">
-    </div>
-
-    <div class="intro">
-      <h1>A modern publishing platform</h1>
-      <small>Grow your audience and build your online brand</small>
-      <div class="">
-        <button type="button" name="button">Start for Free</button>
-        <button type="button" name="button">Learn More</button>
-      </div>
-    </div>
-  </header>
-
-  <section class="container section-one">
-    <h1>Designed for the future</h1>
-
-    <div class="section-info">
-      <div class="first-item">
+    <section class="section-two">
+      <div class="container flex-sec">
+        <div class="images">
+          <img src="./images/illustration-phones.svg" alt="an image">
+        </div>
         <div>
-          <h3>Introducing an extensible editor</h3>
+          <h1>State of the Art Infrastructure</h1>
           <p>
-            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
-            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
-            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
-            change the looks of a blog.
+            With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
           </p>
         </div>
+      </div>
+    </section>
 
+    <section class="section-three">
+      <div>
+        <img src="./images/illustration-laptop-desktop.svg" alt="an image" class="desktop-image">
+        <img src="./images/illustration-laptop-mobile.svg" alt="an image" class="mobile-image">
+      </div>
+      <div>
         <div>
-          <h3>Robust content management</h3>
+          <h3>Free, open, simple</h3>
           <p>
-            Flexible content management enables users to easily move through posts. Increase the usability of your blog
-            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+            Blogr is a free and open source application backed by a large community of helpful developers. It supports
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+          </p>
+        </div>
+        <div>
+          <h3>Powerful tooling</h3>
+          <p>
+            Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+            capable of producing even the most complicated sites.
           </p>
         </div>
       </div>
+    </section>
 
-      <div class="second-item">
-        <img src="./images/illustration-editor-desktop.svg" alt="an image" class="desktop-image">
-        <img src="./images/illustration-editor-mobile.svg" alt="an image" class="mobile-image">
+    <footer>
+      <div class="container">
+        <div class="footer-flex">
+          <h1><a href="">Blogr</a></h1>
+
+          <div>
+            <h3>Product</h3>
+            <ul>
+              <li><a href="">Overview</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Marketplace</a></li>
+              <li><a href="">Features</a></li>
+              <li><a href="">Integrations</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Company</h3>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Team</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Careers</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Connect</h3>
+            <ul>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Newsletter</a></li>
+              <li><a href="">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Your Name Here</a>.
+        </div>
       </div>
-    </div>
-  </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    </footer>
+  </body>
 </html>

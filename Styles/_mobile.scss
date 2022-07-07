@@ -44,6 +44,45 @@
       h3{
         text-align: center;
       }
+
+      p{
+        text-align: center;
+      }
+    }
+  }
+
+  .section-two{
+
+    h1{
+      text-align: center;
+      margin-block-end: 1.3rem;
+    }
+
+    p{
+      text-align: center;
+    }
+  }
+
+  .section-three{
+
+    h3{
+      text-align: center;
+      margin-block-end: 1.3rem;
+    }
+
+    p{
+      text-align: center;
+      margin-block-end: 2.5rem;
+    }
+  }
+
+  footer{
+    text-align: center;
+
+    .footer-flex{
+      flex-direction: column;
+      gap: 2.5rem;
+      padding: 3rem 0rem;
     }
   }
 }

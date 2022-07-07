@@ -76,7 +76,30 @@ header{
   }
 }
 
-.attribution{
+footer{
+  background-color: hsl(240, 10%, 16%);
+  color: #FFFFFF;
+  border-top-right-radius: 100px;
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  ul{
+    list-style-type: none;
+
+    li{
+      margin-block-start: 1rem;
+    }
+  }
+
+  .footer-flex{
+    display: flex;
+  }
+}
+
+.attribution{;
   font-size: 11px;
   text-align: center;
 }
