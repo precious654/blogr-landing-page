@@ -76,6 +76,24 @@ header{
   }
 }
 
+.section-two{
+  position: relative;
+
+  .write-up{
+    color: #FFFFFF;
+    background-color: hsl(237, 17%, 21%);
+
+    h1{
+      margin-block-end: 1.2rem;
+    }
+  }
+}
+
+.section-three{
+  display: flex;
+  margin-block-end: 3rem;
+}
+
 footer{
   background-color: hsl(240, 10%, 16%);
   color: #FFFFFF;

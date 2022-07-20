@@ -55,15 +55,22 @@
 
     h1{
       text-align: center;
-      margin-block-end: 1.3rem;
     }
 
     p{
       text-align: center;
     }
+
+    .write-up{
+      padding: 3rem 2rem;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+    }
   }
 
   .section-three{
+    flex-direction: column;
+    gap: 2rem;
 
     h3{
       text-align: center;

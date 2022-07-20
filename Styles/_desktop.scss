@@ -36,6 +36,35 @@
     }
   }
 
+  .section-two{
+    margin-block-start: 2rem;
+
+    .write-up{
+      text-align: right;
+      padding: 4rem 6rem;
+      border-top-right-radius: 90px;
+      border-bottom-left-radius: 90px;
+    }
+  }
+
+  .section-three{
+    justify-content: space-between;
+
+    .write-up{
+      inline-size: 60%;
+      align-self: center;
+      padding: 0rem 6rem;
+
+      div{
+        margin-block-end: 2rem;
+      }
+
+      h3{
+        margin-block-end: 1rem;
+      }
+    }
+  }
+
   footer{
 
     .footer-flex{
