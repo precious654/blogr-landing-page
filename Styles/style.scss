@@ -58,6 +58,7 @@ header{
 
 .section-one{
   margin-block-start: 5rem;
+  margin-block-end: 5rem;
 
   h1{
     text-align: center;
@@ -77,15 +78,29 @@ header{
 }
 
 .section-two{
+  margin-block-end: 5rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
   position: relative;
+  background-color: hsl(237, 17%, 21%);
 
-  .write-up{
-    color: #FFFFFF;
-    background-color: hsl(237, 17%, 21%);
+  .sec-flex{
+    display: flex;
 
-    h1{
-      margin-block-end: 1.2rem;
+    .write-up{
+      color: #FFFFFF;
+
+      h1{
+        margin-block-end: 1.2rem;
+      }
     }
+  }
+
+  .images{
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    z-index: 1;
   }
 }
 

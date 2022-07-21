@@ -38,12 +38,17 @@
 
   .section-two{
     margin-block-start: 2rem;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
 
-    .write-up{
-      text-align: right;
-      padding: 4rem 6rem;
-      border-top-right-radius: 90px;
-      border-bottom-left-radius: 90px;
+    .sec-flex{
+      justify-content: space-between;
+
+      .write-up{
+        text-align: right;
+        padding: 4rem 6rem;
+        inline-size: 60%;
+      }
     }
   }
 
